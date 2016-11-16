@@ -63,7 +63,7 @@ public class BuzzFeedAdapter extends RecyclerView.Adapter {
             titleText.setText(article.getTitle());
             textView.setText(article.getDescription());
             Picasso.with(context)
-                        .load(article.getUrlToImage())
+                        .load(article.getUrlToImage()).fit()
                         .into(imageview);
 
         }

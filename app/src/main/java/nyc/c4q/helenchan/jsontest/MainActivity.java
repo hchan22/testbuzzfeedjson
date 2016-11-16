@@ -15,7 +15,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
     private static final String API_KEY = BuildConfig.API_KEY;
-    private static final String TAG = MainActivity.class.getSimpleName();
 
     private RecyclerView recycle;
 
